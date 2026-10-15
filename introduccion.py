@@ -1,5 +1,3 @@
-from tkinter import Text
-
 from manim import *
 
 class introduccion(Scene):
