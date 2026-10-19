@@ -4,7 +4,7 @@ class introduccion(Scene):
     def construct(self):
         titulooo = Text("Grupo 14: La integral más allá del área",
                         font_size=19)
-        integrantes_pregun = Text("¿Qué representa una integral cuando la función describe una tasa y no una altura geométrica?" "\nIntegrantes: Benjamin Varela, Benjamin Pedraza y Benjamin Riquelme",
+        integrantes_pregun = Text("¿Qué representa una integral cuando la función describe una tasa y no una altura geométrica?" "\nIntegrantes: Benjamin Varela y Benjamin Pedraza",
                          font_size=16)
         
 
@@ -16,5 +16,5 @@ class introduccion(Scene):
         #para q se escriba asi el texto
         self.play(Write(titulooo), run_time=2)
         self.play(Write(integrantes_pregun), run_time=2)
-        self.wait(15) # es para q la escena se demore
+        self.wait(18) # es para q la escena se demore
         
